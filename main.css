@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,900&display=swap");
+body {
+  background-color: hsl(225deg, 100%, 94%);
+  font-family: Red Hat Display;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-card {
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+  width: 350px;
+  height: 600px;
+}
+.main-card img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 16px;
+}
+.main-card h4 {
+  margin-top: 16px;
+  text-align: center;
+  margin: auto;
+  align-self: center;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+p {
+  color: hsl(224deg, 23%, 55%);
+  font-size: 16px;
+  text-align: center;
+  padding: 16px;
+  margin: auto;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.plan-details {
+  width: 300px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: hsl(225deg, 100%, 98%);
+  padding: 8px;
+}
+.plan-details img {
+  width: 15%;
+  float: left;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.plan-details h4 {
+  position: relative;
+  left: 10px;
+  top: -11px;
+  font-size: 14px;
+  font-weight: 900;
+}
+.plan-details p {
+  font-size: 14px;
+  padding: 2px;
+  position: relative;
+  left: -91px;
+  top: 8px;
+}
+.plan-details a {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px;
+  left: -20px;
+  top: -5px;
+  text-decoration: none;
+  position: relative;
+}
+.plan-details a:hover {
+  color: #766cf1;
+}
+
+.cta-payment-button {
+  border-radius: 10px;
+  background-color: hsl(245deg, 75%, 52%);
+  position: relative;
+  top: 100px;
+  width: 250px;
+  text-align: center;
+  color: white;
+  padding: 16px 32px;
+  margin: auto;
+  box-shadow: 0 15px 10px rgba(144, 148, 199, 0.2);
+  text-decoration: none;
+}
+
+.cta-payment-button:hover {
+  background-color: #766cf1;
+}
+
+.cancel-link-bta {
+  position: relative;
+  font-size: 12px;
+  margin-top: 120px;
+  text-align: center;
+  color: grey;
+  font-weight: 700;
+  text-decoration: none;
+  top: 25px;
+}
+
+.cancel-link-bta:hover {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
